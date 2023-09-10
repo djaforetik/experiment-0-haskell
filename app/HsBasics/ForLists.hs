@@ -1,3 +1,5 @@
+module HsBasics.ForLists where
+
 import Data.List
 import Data.Maybe
 main :: IO ()

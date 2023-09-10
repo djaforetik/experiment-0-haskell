@@ -1,4 +1,5 @@
-module VscodeProject1.HsFunctions.Examples.Prime (isPrime) where
+module HsFunctions.Examples.Prime (isPrime) where
+
 isPrime :: Int -> Bool
 isPrime number
     | number < 2 = False
