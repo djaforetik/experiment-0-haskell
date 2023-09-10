@@ -1,3 +1,5 @@
+module HsBasics.ForStrings where
+
 import Data.Char (toLower, toUpper)
 import Data.List (findIndex, intercalate, isInfixOf, tails)
 import Data.Text.Internal.Search

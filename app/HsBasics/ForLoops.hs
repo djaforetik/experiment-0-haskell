@@ -1,3 +1,5 @@
+module HsBasics.ForLoops where
+
 main :: IO ()
 main = do
     mapM_ (\i -> putStr $ show i ++ (if i < 14 then " " else "\n")) [0,2..14]
