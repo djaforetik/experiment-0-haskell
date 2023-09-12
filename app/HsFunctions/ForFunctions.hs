@@ -1,8 +1,8 @@
-module VscodeProject1.HsFunctions where
-import VscodeProject1.HsFunctions.Examples.Hamming (isHamming)
-import VscodeProject1.HsFunctions.Examples.Prime (isPrime)
-main :: IO ()
-main = do
+module HsFunctions.ForFunctions (forFunctions) where
+import HsFunctions.Examples.Hamming (isHamming)
+import HsFunctions.Examples.Prime (isPrime)
+forFunctions :: IO ()
+forFunctions = do
     mapM_ putStrLn [
         show (isHamming 216000),
         show (isPrime 216000)

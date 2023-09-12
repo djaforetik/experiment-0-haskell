@@ -18,6 +18,6 @@ main = do
     let dtSpl = words dt
     mapM_ putStrLn [
         show dtEli, show dtElf, show dtIni, show dtInf, show dtLen,
-        show dtCon, show dtSub, show dtCal, show dtCau, show dtRep,
+        dtCon, dtSub, dtCal, dtCau, dtRep,
         show dtSpl
         ]

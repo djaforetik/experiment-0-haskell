@@ -1,4 +1,4 @@
-module VscodeProject1.HsFunctions.Examples.Hamming (isHamming) where
+module HsFunctions.Examples.Hamming (isHamming) where
 isHamming :: Int -> Bool
 isHamming number
     | number == 0 = False
